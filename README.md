@@ -1,4 +1,4 @@
-# Pulumi Django Celery
+# Pulumi Automation API for Django, Celery, NextJS
 
 - Django RESTful API
 - NextJS Web Applications
