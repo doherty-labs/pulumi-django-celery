@@ -5,7 +5,7 @@
 - Celery Worker + Scheduler
 - Kubernetes
 - DigitalOcean Postgres
-- DigitalOcean Redis
+- DigitalOcean Redis / Valkey
 - DigitalOcean CDN
 - Connection Pools + Firewalls
 - Object Storage

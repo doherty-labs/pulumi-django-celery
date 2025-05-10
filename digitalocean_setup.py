@@ -105,8 +105,8 @@ class DigitalOceanSetup:
     def setup_redis(self) -> dict:
         redis_db_cluster = digitalocean.DatabaseCluster(
             resource_name=self.resource_prefix + "digitalocean-redis",
-            engine="redis",
-            version="7",
+            engine="valkey",
+            version="8",
             size=self.instance_config.caching_size,
             node_count=self.instance_config.caching_node_count,
             region=self.instance_config.default_region,
