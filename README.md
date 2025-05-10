@@ -19,7 +19,7 @@
 - Cert Manager
 - Kubernetes Dashboard
 
-# Running locally
+## Running locally
 
 ```
 poetry install
