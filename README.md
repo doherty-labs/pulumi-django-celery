@@ -19,6 +19,11 @@
 - Cert Manager
 - Kubernetes Dashboard
 
+'''
+poetry instal
+python main.py
+'''
+
 ## Github Workflow Example
 
 https://github.com/doherty-labs/pulumi-django-celery/blob/main/github-workflow/deploy-sample.yml
