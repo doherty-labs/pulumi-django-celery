@@ -19,6 +19,10 @@
 - Cert Manager
 - Kubernetes Dashboard
 
+## Github Workflow Example
+
+https://github.com/doherty-labs/pulumi-django-celery/blob/main/github-workflow/deploy-sample.yml
+
 ## Helm Chart
 
 https://github.com/doherty-labs/helm-charts
