@@ -19,10 +19,10 @@
 - Cert Manager
 - Kubernetes Dashboard
 
-"""
+
 poetry install
 python main.py
-"""
+
 
 ## Github Workflow Example
 
