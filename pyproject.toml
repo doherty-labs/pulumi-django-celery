@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "test"
+version = "0.1.0"
+description = ""
+authors = ["John Doherty"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.13"
+pulumi = "^3.153.1"
+pulumi-digitalocean = "^4.40.1"
+pulumi-auth0 = "^3.14.0"
+pulumi-datadog = "^4.46.0"
+pulumi-kubernetes = "^4.21.1"
+pulumi-ec = "^0.10.5"
+pulumi-github = "^6.7.0"
+pulumi-onepassword = "^1.1.3"
+pydantic = "^2.10.6"
+ruff = "^0.9.10"
+jinja2 = "^3.1.6"
+pulumi-random = "^4.18.0"
+pulumiverse-time = "^0.1.1"
+pulumi-tls-self-signed-cert = "^0.1.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
